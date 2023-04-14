@@ -1,0 +1,11 @@
+# make sure there were installed by the base
+numpy
+tensorflow
+
+sklearn
+scikit-learn
+pandas
+matplotlib
+statsmodels
+tqdm
+seaborn
