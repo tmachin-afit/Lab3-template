@@ -9,9 +9,9 @@ import pandas as pd
 import seaborn as sn
 import statsmodels.api as sm
 import tensorflow as tf
-from sklearn.metrics import classification_report
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from scikit-learn.metrics import classification_report
+from scikit-learn.model_selection import train_test_split
+from scikit-learn.preprocessing import StandardScaler
 from statsmodels.formula.api import ols
 from tensorflow.keras.callbacks import TensorBoard
 from tensorflow.keras.layers import Input, Dense
@@ -24,7 +24,7 @@ from tqdm.keras import TqdmCallback
 def new_york_city_airbnb():
     # Step 1 Read in the raw data
     # data is from https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data you must make an account first
-    df = pd.read_csv('/opt/data/AB_NYC_2019.csv')
+    df = pd.read_csv('./data/AB_NYC_2019.csv')
     print(df.columns)
 
     # baseline linear regression for comparison
@@ -94,7 +94,7 @@ def plot_cm(actual: np.ndarray, prediction: np.ndarray):
 def titanic():
     # Step 1: read in the raw data
     # titanic_file_path = tf.keras.utils.get_file("/tmp/.keras/train.csv", "https://storage.googleapis.com/tf-datasets/titanic/train.csv")
-    titanic_file_path = '/opt/data/train.csv'
+    titanic_file_path = './data/train.csv'
     df = pd.read_csv(titanic_file_path)
     df = df.rename(columns={"class": 'class_'})
     print(df.columns)
