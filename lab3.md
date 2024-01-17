@@ -8,11 +8,7 @@ Our first problem will be to determine the price of a room in NYC. The dataset w
 Our second problem will be to determine if a passenger of the Titanic survived or not. The dataset we will be using is from Google examples and is available [here](https://storage.googleapis.com/tf-datasets/titanic/train.csv). For reference, a linear regression was able to achieve an accuracy of about 81% on the entire dataset. 
 
 ### Template
-The template already has code to load these datasets, please do not change any paths in the code and instead download/move any data to the spot given by the code (make the data directory into your virtual machine using
-```bash 
- sudo mkdir data 
- ```
- within the opt folder). If you modify the paths then it will make it much harder to grade, since the professor will have to inspect your code and change the paths back in order to run it.
+The template already has code to load these datasets, please do not change any paths in the code and instead download/move any data to the spot given by the code. If you modify the paths then it will make it much harder to grade, since the professor will have to inspect your code and change the paths back in order to run it.
 
 # Steps
 Each of these steps will be done for both problems.
