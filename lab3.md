@@ -1,6 +1,12 @@
 # Lab 3
 In this lab we will practice the universal workflow of machine learning. You will practice each step and demonstrate proficiency through commented code and plots as directed. There will be two datasets in this lab to show both classification and regression problems.
 
+CPU:    2
+Req:    default
+Mem:    16Gi
+GPU:    0
+
+
 ## New York City Airbnb Open Data
 Our first problem will be to determine the price of a room in NYC. The dataset we will be using is the `New York City Airbnb Open Data` dataset available on kaggle [here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data). For reference, a linear regression model was able to achieve a mean absolute error (MAE) of $75 across the entire dataset. You may be asked to create a Kaggle account to download the data. This is free, and recommended for accessing other data sets (such as your final project data if necessary). 
 
