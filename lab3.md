@@ -2,8 +2,11 @@
 In this lab we will practice the universal workflow of machine learning. You will practice each step and demonstrate proficiency through commented code and plots as directed. There will be two datasets in this lab to show both classification and regression problems.
 
 CPU:    2
+
 Req:    default
+
 Mem:    16Gi
+
 GPU:    0
 
 
@@ -19,13 +22,15 @@ The template already has code to load these datasets, please do not change any p
 # Steps
 Each of these steps will be done for both problems.
 
-## Step 1 Problem Statement and assembling dataset
+Instead of using the Geron 8 step method, we will utilize the 7 step Chollet method. This is due to the ambiguity in some of the Geron steps, as well as a few important ML techniques more explicitely called out (such as regularization) within the Chollet method. 
+
+## Step 1: Problem Statement and assembling dataset
 You will load the raw data and split into input and output data. This split of the raw data will depend on what you think will be best to solve this problem (the inputs) and what the goal of the problem is (the output). 
 
 ### Deliverable
 In your code make a comment to mark the section where you load your raw data and then split it. Mark this block of code as step 1.
 
-## Step 2 Measures of Success
+## Step 2:  Measures of Success
 Determine your own metric based on the problem. Remember we are determining the price of the room and if someone survived on the Titanic or not.
 
 ### Deliverable
@@ -64,10 +69,3 @@ After you are satisfied with your validation performance you then evaluate again
 ## Deliverable
 Mark this network in your code however it should run in the final submission. 
 Also included should be the final performance you achieved on the test set. You should print this final performance metric and also put your final performance in a comment (in case it changes slightly when I run the code).
-
-## Easier to Grade
-To grade this lab I will clone your repo and then in the project root run the command
-```bash
-python3 lab3.py
-```
-That should be enough to run the entire lab and show me all the output I have asked for except for the commented networks which I will look at the code directly for.
